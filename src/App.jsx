@@ -5,6 +5,7 @@ import { NavBar } from './components/NavBar.jsx'
 import { MobileMenu } from './components/MobileMenu.jsx'
 import { Home } from './components/Home.jsx'
 import { About } from './components/About.jsx'
+import { Projects } from './components/Projects.jsx'
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
     <>
       { !isLoaded && <Loading setIsLoaded={setIsLoaded} />} 
 
-      <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
+      <div className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"} text-gray-100`}>
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} setHomeOpen={setHomeOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
         <Home />
         <About /> 
+        <Projects />
       </div>
       
     </>

@@ -33,12 +33,12 @@ export const NavBar = ({ menuOpen, setMenuOpen, setHomeOpen }) => {
             fixed z-50 duration-300 transition-transform
             flex justify-around items-center
             w-screen h-20
-            bg-gray-500 text-black`} >
+            bg-gray-400 text-black text-lg`} >
                 <a> Ivan Ma </a>
 
                 <div className="hidden md:flex items-center space-x-8 "> 
                     <a href="#home" className=" hover:text-white  transition-colors " onClick={() => setHomeOpen(true)} > Home </a>
-                    <a href="#about" className= "hover:text-white transition-colors"> About </a>
+                    <a href="#about" className= "hover:text-white transition-all"> About </a>
                     <a href="#projects" className="hover:text-white transition-colors"> Projects </a>
                 </div>
 

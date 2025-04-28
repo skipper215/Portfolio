@@ -5,7 +5,7 @@ export const Home = () =>  {
     return (
         <section 
             id="home" // section + id - allows for href routing 
-            className="min-h-screen flex items-center justify-center relative"
+            className="min-h-screen flex items-center justify-center relative bg-gray-900"
         >
             <div className="text-center z-10">
                 <h1 className="text-5xl font-bold"> 

@@ -6,6 +6,7 @@ html, body {
   background: hsla(0, 0%, 0%, 0.795);
   font-family: sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
