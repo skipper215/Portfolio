@@ -15,7 +15,7 @@ export const NavBar = ({ menuOpen, setMenuOpen, setHomeOpen, }) => {
                 <a> Ivan Ma </a>
 
                 <div className="hidden md:flex items-center space-x-8 "> 
-                    <a href="#home" className=" hover:text-white  transition-colors" onClick={() => setHomeOpen(true)} > Home </a>
+                    <a href="#home" className=" hover:text-white  transition-colors " onClick={() => setHomeOpen(true)} > Home </a>
                     <a href="#about" className= "hover:text-white transition-colors"> About </a>
                     <a href="#projects" className="hover:text-white transition-colors"> Projects </a>
                 </div>
